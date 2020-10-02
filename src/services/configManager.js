@@ -34,6 +34,7 @@ function processElement (node, parent) {
           description: child.description,
           path: node.path + child.route,
           icon: child.icon,
+          cssClass: child.cssClass,
           bgColor: child.bgColor,
           owner: child.owner,
           topics: child.topics
