@@ -1,6 +1,6 @@
 {
-  "name": "playbook",
-  "short_name": "playbook",
+  "name": "AWS Solutions Architect Associate Noteybook",
+  "short_name": "aws-solutions-architect-associate-notes",
   "icons": [
     {
       "src": "/static/img/icons/android-chrome-192x192.png",
