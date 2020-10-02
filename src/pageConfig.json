@@ -1,20 +1,20 @@
 {
-  "appName": "Git",
+  "appName": "aws-solutions-architect-associate-notes",
   "headerNavigation": [
     {
-      "name": "Playbook",
-      "path": "/playbook"
+      "name": "AWS Solutions Architect Associate Note",
+      "path": "/aws-solutions-architect-associate-notes"
     }
   ],
-  "landingPage": "/playbook",
+  "landingPage": "/aws-solutions-architect-associate-notes",
   "topics": [
   	"news"
   ],
   "pages": [
     {
-      "route": "/playbook",
-      "name": "Playbook",
-      "description": "This is the playbook",
+      "route": "/aws-solutions-architect-associate-notes",
+      "name": "Home",
+      "description": "This is the Home page",
       "icon": "address-book",
       "children": [
         {
