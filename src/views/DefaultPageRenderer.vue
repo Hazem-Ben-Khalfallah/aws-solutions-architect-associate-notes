@@ -143,17 +143,6 @@ export default {
 
       console.log('PAGECONFIG: ', this.topics)
 
-      // post the visit to cloudant
-      let route = this.$router.currentRoute.path
-      axios.post(`https://merlin-playbook-api-dev.mybluemix.net/visit`, {
-        route
-      }).then(response => {
-        console.log('response', response)
-      })
-
-      this.getLikes()
-      this.getDislikes()
-
       // load the markdown ressource from its static ressources
       this.markdown = ''
       if (this.pageConfig.markdown !== undefined) {
