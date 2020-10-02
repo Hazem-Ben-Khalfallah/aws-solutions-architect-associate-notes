@@ -21,7 +21,7 @@
           "route": "/whatsNew",
           "name": "Whats new ?",
           "description": "recent announcements, news, latest and greatest",
-          "icon": "bullhorn",
+          "icon": "/static/img/aws/Res_Amazon-Aurora_Amazon-RDS-Instance_48_Dark.svg",
           "topics": ["news"],
           "markdown" : "/static/markdown/whatsnew/Current.md"
         },
