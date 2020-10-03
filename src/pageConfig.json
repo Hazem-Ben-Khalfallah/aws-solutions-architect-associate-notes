@@ -67,7 +67,7 @@
             {
               "route": "/ram",
               "name": "RAM",
-              "fullName": "Resource Access Manage",
+              "fullName": "Resource Access Manager",
               "description": "Share AWS resources with other AWS accounts.",
               "cssClass": "ram",
               "topics": [
@@ -164,7 +164,8 @@
               "cssClass": "waf",
               "topics": [
                 "security",
-                "WAF"
+                "WAF",
+                "Firewall"
               ],
               "markdown": "/static/markdown/securityandidentity/WAF.md"
             },
@@ -175,7 +176,8 @@
               "cssClass": "shield",
               "topics": [
                 "security",
-                "Shield"
+                "Shield",
+                "DDos"
               ],
               "markdown": "/static/markdown/securityandidentity/Shield.md"
             }

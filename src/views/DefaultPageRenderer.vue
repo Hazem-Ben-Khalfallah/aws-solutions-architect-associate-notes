@@ -6,9 +6,17 @@
       v-if="pageConfig && !pageConfig.tiles"
       :data-name="pageConfig.name"
     >
-      <h2 class="banner__title">{{ pageConfig.name }}</h2>
+    <div class= "banner__content">
+    <div>
+      <i :class="[pageConfig.cssClass]" v-if="pageConfig.cssClass" />
+      <font-awesome-icon class="card__icon" size="5x" color="#2d74da" :icon="pageConfig.icon" v-if="pageConfig.icon"/>
+    </div>
+    <div>
+      <h2 class="banner__title">{{ pageConfig.name }} <i v-if="pageConfig.fullName"> ({{ pageConfig.fullName }}) </i></h2>
       <h4 class="banner__text">{{ pageConfig.description }}</h4>
       <p class="banner__timestamp">{{ lastModified }}</p>
+    </div>
+    </div>
 
     </section>
 

@@ -1,6 +1,8 @@
-## Cognito
-* Amazon Cognito lets you easily **add** user **sign-up and sign-in** to your mobile and web apps. 
-* you also have the options to **authenticate users through social identity providers** such as Facebook, Twitter, or Amazon, via **SAML 2.0** identity solutions, or by using your **own identity system**. 
+* Amazon Cognito lets you easily **add** user **sign-up and sign-in** to your mobile and web apps.
+* Amazon Cognito has two authentication methods, independent of one another 
+  * Sign in via third party federation
+  * Cognito user pools
+* you have the options to **authenticate users through social identity providers** such as Facebook, Twitter, or Amazon, via **SAML 2.0** identity solutions, or by using your **own identity system**. 
 * Can enable users to sign up or sign in with an **email address** or **phone number**.
 * **support** SMS-based multi-factor authentication (**MFA**).
   

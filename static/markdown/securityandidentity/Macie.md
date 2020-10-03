@@ -1,5 +1,3 @@
-## Macie
-
 * Macie automatically provides an inventory of Amazon S3 buckets including a list of:
   *  unencrypted buckets, 
   *  publicly accessible buckets, 

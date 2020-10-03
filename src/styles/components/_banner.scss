@@ -12,10 +12,24 @@
   border-bottom: 4px solid #ddd;
 }
 
+.banner__content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
 .banner__title {
-  margin-top: 0.8rem;
   margin-bottom: 0.3rem;
   margin-left: 1rem;
+  color: #000;
+  text-align: left;
+}
+
+.banner__subtitle {
+  margin-bottom: 0.3rem;
+  margin-left: 1rem;
+  font-size: 0.9rem;
+  font-weight: 500;
   color: #000;
   text-align: left;
 }
@@ -162,4 +176,3 @@
   width: 100px;
   padding: 0 1rem 0 50px;
 }
-

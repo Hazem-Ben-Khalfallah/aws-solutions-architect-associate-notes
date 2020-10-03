@@ -1,5 +1,3 @@
-## SecretsManager
-
 * Protects secrets needed to access your applications, services, and IT resources. 
 * Enables you to easily **rotate**, **manage**, and **retrieve**:
   * database credentials, 

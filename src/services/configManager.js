@@ -49,9 +49,11 @@ function processElement (node, parent) {
   node.meta = {
     tiles: (tiles.length > 0) ? tiles : null,
     name: node.name,
+    fullName: node.fullName,
     description: node.description,
     markdown: node.markdown,
     icon: node.icon,
+    cssClass: node.cssClass,
     bgColor: node.bgColor,
     owner: node.owner,
     topics: node.topics,
