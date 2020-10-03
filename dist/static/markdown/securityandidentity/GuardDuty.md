@@ -1,5 +1,3 @@
-## GuardDuty
-
 * Amazon GuardDuty is a continuous security monitoring service that analyzes and processes the following Data sources: 
   * VPC Flow Logs,
   * CloudTrail management event logs, 

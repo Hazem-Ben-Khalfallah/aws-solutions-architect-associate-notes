@@ -7,9 +7,9 @@
     Tags: Best Practices, Website
 */
 //  prod config
-//$icons-path:  ".."
+$icons-path:  "..";
 //  dev config
-$icons-path:  "\/static";
+//$icons-path:  "\/static";
 
 @import './styles/reset.scss';
 
