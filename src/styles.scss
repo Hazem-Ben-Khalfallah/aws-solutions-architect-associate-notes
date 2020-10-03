@@ -7,7 +7,8 @@
     Tags: Best Practices, Website
 */
 //  prod config
-$icons-path:  "\/aws-solutions-architect-associate-notes\/static";
+$base-path: "\/aws-solutions-architect-associate-notes";
+$icons-path: $base-path + "\/static";
 //  dev config
 //$icons-path:  "\/static";
 
