@@ -11,7 +11,7 @@
 .security-identity-compliance {
   padding: 50px 50px;
   margin-left: 30px;
-  background-image: url(/static/img/aws/Security-Identity-and-Compliance.svg);
+  background-image: url(/static/icons/aws/Security-Identity-and-Compliance.svg);
   background-repeat: no-repeat;
   background-position: 5px 50%;
   background-size: 64px 64px;
@@ -20,7 +20,7 @@
 .storage {
   padding: 50px 50px;
   margin-left: 30px;
-  background-image: url(/static/img/aws/Storage.svg);
+  background-image: url(/static/icons/aws/Storage.svg);
   background-repeat: no-repeat;
   background-position: 5px 50%;
   background-size: 64px 64px;
@@ -29,7 +29,7 @@
 .database {
   padding: 50px 50px;
   margin-left: 30px;
-  background-image: url(/static/img/aws/Database.svg);
+  background-image: url(/static/icons/aws/Database.svg);
   background-repeat: no-repeat;
   background-position: 5px 50%;
   background-size: 64px 64px;
@@ -38,7 +38,7 @@
 .compute {
   padding: 50px 50px;
   margin-left: 30px;
-  background-image: url(/static/img/aws/Compute.svg);
+  background-image: url(/static/icons/aws/Compute.svg);
   background-repeat: no-repeat;
   background-position: 5px 50%;
   background-size: 64px 64px;
@@ -47,7 +47,7 @@
 .migrate-Transfer {
   padding: 50px 50px;
   margin-left: 30px;
-  background-image: url(/static/img/aws/Migration-and-Transfer.svg);
+  background-image: url(/static/icons/aws/Migration-and-Transfer.svg);
   background-repeat: no-repeat;
   background-position: 5px 50%;
   background-size: 64px 64px;
@@ -56,7 +56,7 @@
 .networking-content-delivery {
   padding: 50px 50px;
   margin-left: 30px;
-  background-image: url(/static/img/aws/Networking-and-Content-Delivery.svg);
+  background-image: url(/static/icons/aws/Networking-and-Content-Delivery.svg);
   background-repeat: no-repeat;
   background-position: 5px 50%;
   background-size: 64px 64px;
@@ -65,7 +65,7 @@
 .management-governance {
   padding: 50px 50px;
   margin-left: 30px;
-  background-image: url(/static/img/aws/Management-and-Governance.svg);
+  background-image: url(/static/icons/aws/Management-and-Governance.svg);
   background-repeat: no-repeat;
   background-position: 5px 50%;
   background-size: 64px 64px;
@@ -74,7 +74,7 @@
 .developer-tools {
   padding: 50px 50px;
   margin-left: 30px;
-  background-image: url(/static/img/aws/Developer-Tools.svg);
+  background-image: url(/static/icons/aws/Developer-Tools.svg);
   background-repeat: no-repeat;
   background-position: 5px 50%;
   background-size: 64px 64px;
@@ -83,7 +83,7 @@
 .analytics {
   padding: 50px 50px;
   margin-left: 30px;
-  background-image: url(/static/img/aws/Analytics.svg);
+  background-image: url(/static/icons/aws/Analytics.svg);
   background-repeat: no-repeat;
   background-position: 5px 50%;
   background-size: 64px 64px;
@@ -92,7 +92,7 @@
 .application-integration {
   padding: 50px 50px;
   margin-left: 30px;
-  background-image: url(/static/img/aws/Application-Integration.svg);
+  background-image: url(/static/icons/aws/Application-Integration.svg);
   background-repeat: no-repeat;
   background-position: 5px 50%;
   background-size: 64px 64px;
@@ -101,7 +101,7 @@
 .cost-management {
   padding: 50px 50px;
   margin-left: 30px;
-  background-image: url(/static/img/aws/AWS-Cost-Management.svg);
+  background-image: url(/static/icons/aws/AWS-Cost-Management.svg);
   background-repeat: no-repeat;
   background-position: 5px 50%;
   background-size: 64px 64px;
@@ -110,7 +110,7 @@
 .end-user-computing {
   padding: 50px 50px;
   margin-left: 30px;
-  background-image: url(/static/img/aws/End-User-Computing.svg);
+  background-image: url(/static/icons/aws/End-User-Computing.svg);
   background-repeat: no-repeat;
   background-position: 5px 50%;
   background-size: 64px 64px;
@@ -118,19 +118,73 @@
 
 /* Services */
 
-.rds {
+.iam {
   padding: 50px 50px;
   margin-left: 30px;
-  background-image: url(/static/img/aws/Amazon-RDS.svg);
+  background-image: url(/static/icons/aws/AWS-Identity-and-Access-Management_IAM.svg);
   background-repeat: no-repeat;
   background-position: 5px 50%;
   background-size: 64px 64px;
 }
 
-.iam {
+.ram {
   padding: 50px 50px;
   margin-left: 30px;
-  background-image: url(/static/img/aws/AWS-Identity-and-Access-Management_IAM.svg);
+  background-image: url(/static/icons/aws/AWS-Resource-Access-Manager.svg);
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+.cognito {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url(/static/icons/aws/Amazon-Cognito.svg);
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+.secrets-manager {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url(/static/icons/aws/AWS-Secrets-Manager.svg);
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+.guardDuty {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url(/static/icons/aws/Amazon-GuardDuty.svg);
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+.macie {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url(/static/icons/aws/Amazon-Macie.svg);
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+.kms {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url(/static/icons/aws/AWS-Key-Management-Service.svg);
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+.rds {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url(/static/icons/aws/Amazon-RDS.svg);
   background-repeat: no-repeat;
   background-position: 5px 50%;
   background-size: 64px 64px;
@@ -139,7 +193,7 @@
 .s3 {
   padding: 50px 50px;
   margin-left: 30px;
-  background-image: url(/static/img/aws/Amazon-Simple-Storage-Service-S3.svg);
+  background-image: url(/static/icons/aws/Amazon-Simple-Storage-Service-S3.svg);
   background-repeat: no-repeat;
   background-position: 5px 50%;
   background-size: 64px 64px;
@@ -148,7 +202,7 @@
 .dynamoDB {
   padding: 50px 50px;
   margin-left: 30px;
-  background-image: url(/static/img/aws/Amazon-DynamoDB.svg);
+  background-image: url(/static/icons/aws/Amazon-DynamoDB.svg);
   background-repeat: no-repeat;
   background-position: 5px 50%;
   background-size: 64px 64px;
@@ -157,7 +211,7 @@
 .ec2 {
   padding: 50px 50px;
   margin-left: 30px;
-  background-image: url(/static/img/aws/Amazon-EC2.svg);
+  background-image: url(/static/icons/aws/Amazon-EC2.svg);
   background-repeat: no-repeat;
   background-position: 5px 50%;
   background-size: 64px 64px;

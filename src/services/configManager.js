@@ -31,6 +31,7 @@ function processElement (node, parent) {
       tiles.push(
         {
           name: child.name,
+          fullName: child.fullName,
           description: child.description,
           path: node.path + child.route,
           icon: child.icon,

@@ -8,7 +8,8 @@
   ],
   "landingPage": "/aws-solutions-architect-associate-notes",
   "topics": [
-    "databases"
+    "databases",
+    "security"
   ],
   "pages": [
     {
@@ -44,57 +45,137 @@
         {
           "route": "/securityandidentity",
           "name": "Security and Identity",
-          "description": "IAM, Resource Access Manager, Cognito, Secrets Manager, GuardDuty, Inspector, Macie, AWS Single Sign-On,  KMS, Cloud HSM, Directory Service, WAF, Shield ",
+          "description": "IAM, Resource Access Manager, Cognito, Secrets Manager, GuardDuty, Macie, KMS, Cloud HSM, Directory Service, WAF, Shield ",
           "topics": [
             "security"
           ],
           "icon": "none",
           "cssClass": "security-identity-compliance",
-          "markdown": "/static/markdown/SecurityAndIdentity.md"
+          "children": [
+            {
+              "route": "/iam",
+              "name": "IAM",
+              "fullName": "Identity and Access Management",
+              "description": "Manage access to AWS resources",
+              "cssClass": "iam",
+              "topics": [
+                "security",
+                "iam"
+              ],
+              "markdown": "/static/markdown/securityandidentity/IAM.md"
+            },
+            {
+              "route": "/ram",
+              "name": "RAM",
+              "fullName": "Resource Access Manage",
+              "description": "Share AWS resources with other AWS accounts.",
+              "cssClass": "ram",
+              "topics": [
+                "security",
+                "RAM"
+              ],
+              "markdown": "/static/markdown/securityandidentity/RAM.md"
+            },
+            {
+              "route": "/cognito",
+              "name": "Cognito",
+              "description": "Authentication & Authorization for Web and mobile apps",
+              "cssClass": "cognito",
+              "topics": [
+                "security",
+                "Cognito",
+                "Web Identity Federation"
+              ],
+              "markdown": "/static/markdown/securityandidentity/Cognito.md"
+            },
+            {
+              "route": "/secretsmanager",
+              "name": "Secrets Manager",
+              "description": "Easily rotate, manage, and retrieve secrets throughout their lifecycle",
+              "cssClass": "secrets-manager",
+              "topics": [
+                "security",
+                "Secrets Manager"
+              ],
+              "markdown": "/static/markdown/securityandidentity/SecretsManager.md"
+            },
+            {
+              "route": "/guardduty",
+              "name": "GuardDuty",
+              "description": "Intelligent threat detection to protect your AWS accounts and workloads",
+              "cssClass": "guardDuty",
+              "topics": [
+                "security",
+                "GuardDuty"
+              ],
+              "markdown": "/static/markdown/securityandidentity/GuardDuty.md"
+            },
+            {
+              "route": "/macie",
+              "name": "Macie",
+              "description": "Discover and protect your sensitive data at scale",
+              "cssClass": "macie",
+              "topics": [
+                "security",
+                "Macie"
+              ],
+              "markdown": "/static/markdown/securityandidentity/Macie.md"
+            },
+            {
+              "route": "/kms",
+              "name": "KMS",
+              "fullName": "Key Management Service",
+              "description": "Create keys and control encryption across AWS and beyond.",
+              "cssClass": "kms",
+              "topics": [
+                "security",
+                "Kms"
+              ],
+              "markdown": "/static/markdown/securityandidentity/KMS.md"
+            }
+          ]
         },
         {
           "route": "/storage",
           "name": "Storage",
           "description": "S3, EFS, FSX, Storage Gateway, AWS Backup",
-          "topics": ["storage"],
-          "icon": "none",
+          "topics": [
+            "storage"
+          ],
           "cssClass": "storage",
           "markdown": "/static/markdown/storage.md"
         },
         {
-          "route": "/databases",
-          "name": "Databases",
+          "route": "/database",
+          "name": "Database",
           "description": "RDS, DynamoDB, Redshift, Elasticache",
-          "icon": "none",
           "cssClass": "database",
           "topics": [
-            "databases"
+            "database"
           ],
           "children": [
             {
               "route": "/rds",
               "name": "RDS",
               "description": "Relational Database Service",
-              "icon": "none",
               "cssClass": "rds",
               "topics": [
                 "databases",
                 "RDS"
               ],
-              "markdown": "/static/markdown/databases/RDS.md"
+              "markdown": "/static/markdown/database/RDS.md"
             },
             {
               "route": "/DynamoDB",
               "name": "DynamoDB",
               "description": "DynamoDB - NoSQL",
-              "icon": "none",
               "cssClass": "dynamoDB",
               "topics": [
                 "databases",
                 "NoSQL",
                 "DynamoDB"
               ],
-              "markdown": "/static/markdown/databases/DynamoDB.md"
+              "markdown": "/static/markdown/database/DynamoDB.md"
             }
           ]
         },
@@ -102,8 +183,9 @@
           "route": "/compute",
           "name": "Compute",
           "description": "EC2, serverless, Batch, Elastic Beanstalk, ECR, ECS, EKS",
-          "topics": ["compute"],
-          "icon": "none",
+          "topics": [
+            "compute"
+          ],
           "cssClass": "compute",
           "markdown": "/static/markdown/compute.md"
         },
@@ -111,8 +193,10 @@
           "route": "/migrationandtransfer",
           "name": "Migration & Transfer",
           "description": "DMS, DataSync, Snow",
-          "topics": ["migration", "transfert"],
-          "icon": "none",
+          "topics": [
+            "migration",
+            "transfert"
+          ],
           "cssClass": "migrate-Transfer",
           "markdown": "/static/markdown/compute.md"
         },
@@ -120,8 +204,9 @@
           "route": "/networking",
           "name": "Networking & Content Delivery",
           "description": "VPC, CloudFront, Route 53, API Gateway, Direct Connect, Global Accelerator",
-          "topics": ["networking"],
-          "icon": "none",
+          "topics": [
+            "networking"
+          ],
           "cssClass": "networking-content-delivery",
           "markdown": "/static/markdown/networking.md"
         },
@@ -129,7 +214,9 @@
           "route": "/managementandgovernance",
           "name": "Management & Governance",
           "description": "AWS Organizations, Cloud watch, Cloud trail, AWS Auto Scaling, Systems Manager, CloudFormation, AWS Well-Architected Tool, Personal Health Dashboard, AWS Compute Optimizer",
-          "topics": ["networking"],
+          "topics": [
+            "networking"
+          ],
           "icon": "none",
           "cssClass": "management-governance",
           "markdown": "/static/markdown/management.md"
@@ -138,8 +225,9 @@
           "route": "/developertools",
           "name": "Developer Tools",
           "description": "CodeCommit, CodeDeploy, X-Ray",
-          "topics": ["application"],
-          "icon": "none",
+          "topics": [
+            "application"
+          ],
           "cssClass": "developer-tools",
           "markdown": "/static/markdown/management.md"
         },
@@ -147,8 +235,9 @@
           "route": "/analytics",
           "name": "Analytics",
           "description": "Athena, Amazon Redshift, EMR,, Kinesis, Data Pipeline, Elasticsearch Service",
-          "topics": ["application"],
-          "icon": "none",
+          "topics": [
+            "application"
+          ],
           "cssClass": "analytics",
           "markdown": "/static/markdown/management.md"
         },
@@ -156,8 +245,9 @@
           "route": "/applicationintegration",
           "name": "Application Integration",
           "description": "SNS, SQS, SWF, Step Functions..",
-          "topics": ["application"],
-          "icon": "none",
+          "topics": [
+            "application"
+          ],
           "cssClass": "application-integration",
           "markdown": "/static/markdown/management.md"
         },
@@ -165,8 +255,9 @@
           "route": "/cost management",
           "name": "AWS Cost Management",
           "description": "AWS Cost Explorer, AWS Budgets",
-          "topics": ["cost management"],
-          "icon": "none",
+          "topics": [
+            "cost management"
+          ],
           "cssClass": "cost-management",
           "markdown": "/static/markdown/management.md"
         },
@@ -174,8 +265,9 @@
           "route": "/endusercomputing",
           "name": "End User Computing",
           "description": "Desktop Workspaces",
-          "topics": ["application"],
-          "icon": "none",
+          "topics": [
+            "application"
+          ],
           "cssClass": "end-user-computing",
           "markdown": "/static/markdown/management.md"
         }

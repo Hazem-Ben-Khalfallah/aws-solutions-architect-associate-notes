@@ -5,7 +5,7 @@
 * get started by reading the article <a href="https://medium.com/@thomas.reinecke/create-compelling-documentation-with-github-pages-16e4149efe9e" target="_blank">Create compelling Documentation with Github Pages</a>
 * edit "src/pageConfig.json" and change the document structure as you desire
 * write your documents in Markdown and put them into the "static" folder
-* create yourself a GIT repository and import your playbook trunk
+* create yourself a GIT repository and push your code
 * deploy it with `npm run gh-pages`
 * in your GH repository > Settings > scroll down to "Github Pages", make sure it points to your "gh-pages" branch
 * find the link to your GH page deployment on that screen aswell
