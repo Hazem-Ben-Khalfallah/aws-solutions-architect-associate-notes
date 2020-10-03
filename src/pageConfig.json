@@ -45,7 +45,7 @@
         {
           "route": "/securityandidentity",
           "name": "Security and Identity",
-          "description": "IAM, Resource Access Manager, Cognito, Secrets Manager, GuardDuty, Macie, KMS, Cloud HSM, Directory Service, WAF, Shield ",
+          "description": "IAM, Resource Access Manager, Cognito, Secrets Manager, GuardDuty, Macie, KMS, Cloud HSM, Directory Service, WAF, Shield",
           "topics": [
             "security"
           ],
@@ -132,6 +132,52 @@
                 "Kms"
               ],
               "markdown": "/static/markdown/securityandidentity/KMS.md"
+            },
+            {
+              "route": "/cloudhsm",
+              "name": "Cloud HSM",
+              "fullName": "Hardware Security Module",
+              "description": "Protects keys on a on a FIPS 140-2 Level 3 validated hardware",
+              "cssClass": "cloudHSM",
+              "topics": [
+                "security",
+                "CloudHSM"
+              ],
+              "markdown": "/static/markdown/securityandidentity/CloudHSM.md"
+            },
+            {
+              "route": "/directoryservice",
+              "name": "Directory Service",
+              "description": "Host and Manage Active Directory.",
+              "cssClass": "cloudHSM",
+              "topics": [
+                "security",
+                "Directory Service"
+              ],
+              "markdown": "/static/markdown/securityandidentity/DirectoryService.md"
+            },
+            {
+              "route": "/waf",
+              "name": "WAF",
+              "fullName": "Web Application Firewall",
+              "description": "Protect web applications from common web exploits",
+              "cssClass": "waf",
+              "topics": [
+                "security",
+                "WAF"
+              ],
+              "markdown": "/static/markdown/securityandidentity/WAF.md"
+            },
+            {
+              "route": "/shield",
+              "name": "Shield",
+              "description": "Managed DDoS protection service",
+              "cssClass": "shield",
+              "topics": [
+                "security",
+                "Shield"
+              ],
+              "markdown": "/static/markdown/securityandidentity/Shield.md"
             }
           ]
         },

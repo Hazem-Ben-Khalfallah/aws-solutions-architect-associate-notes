@@ -1,0 +1,254 @@
+/* Categories */
+
+.security-identity-compliance {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/Security-Identity-and-Compliance.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+.storage {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/Storage.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+.database {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/Database.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+.compute {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/Compute.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+.migrate-Transfer {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/Migration-and-Transfer.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+.networking-content-delivery {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/Networking-and-Content-Delivery.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+.management-governance {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/Management-and-Governance.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+.developer-tools {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/Developer-Tools.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+.analytics {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/Analytics.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+.application-integration {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/Application-Integration.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+.cost-management {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/AWS-Cost-Management.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+.end-user-computing {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/End-User-Computing.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+/* Services */
+
+/* security-identity-compliance */
+
+.iam {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/AWS-Identity-and-Access-Management_IAM.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+.ram {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/AWS-Resource-Access-Manager.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+.cognito {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/Amazon-Cognito.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+.secrets-manager {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/AWS-Secrets-Manager.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+.guardDuty {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/Amazon-GuardDuty.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+.macie {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/Amazon-Macie.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+.kms {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/AWS-Key-Management-Service.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+.cloudHSM {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/AWS-CloudHSM.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+.directoryService {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/AWS-Directory-Service.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+.waf {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/AWS-WAF.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+.shield {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/AWS-Shield.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+/* storage */
+
+.s3 {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/Amazon-Simple-Storage-Service-S3.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+/* database */
+
+.rds {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/Amazon-RDS.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+.dynamoDB {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/Amazon-DynamoDB.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+/* compute */
+
+.ec2 {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/Amazon-EC2.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
