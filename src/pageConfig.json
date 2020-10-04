@@ -256,7 +256,7 @@
               "description": "Managed Relational Database Service",
               "cssClass": "rds",
               "topics": [
-                "databases",
+                "database",
                 "RDS"
               ],
               "markdown": "/static/markdown/database/RDS.md"
@@ -267,21 +267,10 @@
               "description": "Managed NoSQL database",
               "cssClass": "dynamoDB",
               "topics": [
-                "databases",
+                "database",
                 "DynamoDB"
               ],
               "markdown": "/static/markdown/database/DynamoDB.md"
-            },
-            {
-              "route": "/redshift",
-              "name": "Redshift",
-              "description": "Data Warehousing",
-              "cssClass": "redshift",
-              "topics": [
-                "databases",
-                "Redshift"
-              ],
-              "markdown": "/static/markdown/database/Redshift.md"
             },
             {
               "route": "elasticache",
@@ -289,7 +278,7 @@
               "description": "In-Memory Cache",
               "cssClass": "elasticache",
               "topics": [
-                "databases",
+                "database",
                 "ElastiCache"
               ],
               "markdown": "/static/markdown/database/ElastiCache.md"
@@ -299,12 +288,59 @@
         {
           "route": "/compute",
           "name": "Compute",
-          "description": "EC2, serverless, Batch, Elastic Beanstalk, ECR, ECS, EKS",
+          "description": "EC2, Lambda, Elastic Beanstalk, ECS",
           "topics": [
             "compute"
           ],
           "cssClass": "compute",
-          "markdown": "/static/markdown/compute.md"
+          "children": [
+            {
+              "route": "/ec2",
+              "name": "EC2",
+              "fullName": "Elastic Compute Cloud",
+              "description": "Virtual servers in Cloud",
+              "cssClass": "ec2",
+              "topics": [
+                "Compute",
+                "EC2"
+              ],
+              "markdown": "/static/markdown/Compute/EC2.md"
+            },
+            {
+              "route": "/lambda",
+              "name": "Lambda",
+              "description": "Run code without thinking about servers",
+              "cssClass": "lambda",
+              "topics": [
+                "Compute",
+                "Lambda"
+              ],
+              "markdown": "/static/markdown/compute/Lambda.md"
+            },
+            {
+              "route": "/elasticbeanstalk",
+              "name": "Elastic Beanstalk",
+              "description": "Run and manage Web Apps",
+              "cssClass": "elastic-beanstalk",
+              "topics": [
+                "Compute",
+                "Elastic Beanstalk"
+              ],
+              "markdown": "/static/markdown/compute/ElasticBeanstalk.md"
+            },
+            {
+              "route": "/ecs",
+              "name": "ECS",
+              "fullName": "Elastic Container Service",
+              "description": "Highly secure, reliable, and scalable way to run Docker containers",
+              "cssClass": "ecs",
+              "topics": [
+                "Compute",
+                "ECS"
+              ],
+              "markdown": "/static/markdown/compute/ECS.md"
+            }
+          ]
         },
         {
           "route": "/migrationandtransfer",
@@ -315,78 +351,401 @@
             "transfert"
           ],
           "cssClass": "migrate-Transfer",
-          "markdown": "/static/markdown/compute.md"
+          "children": [
+            {
+              "route": "/dms",
+              "name": "DMS",
+              "fullName": "Database Migration Service",
+              "description": "Managed Database Migration Service",
+              "cssClass": "dms",
+              "topics": [
+                "migration",
+                "transfert",
+                "DMS"
+              ],
+              "markdown": "/static/markdown/migrationandtransfer/DMS.md"
+            },
+            {
+              "route": "/datasync",
+              "name": "DataSync",
+              "description": "simplifies, automates, and accelerates moving data",
+              "cssClass": "datasync",
+              "topics": [
+                "migration",
+                "transfert",
+                "DataSync"
+              ],
+              "markdown": "/static/markdown/migrationandtransfer/DataSync.md"
+            },
+            {
+              "route": "/snow",
+              "name": "Snow",
+              "description": "Large Scale Data Transport",
+              "cssClass": "snow",
+              "topics": [
+                "migration",
+                "transfert",
+                "Snow"
+              ],
+              "markdown": "/static/markdown/migrationandtransfer/Snow.md"
+            }
+          ]
         },
         {
-          "route": "/networking",
+          "route": "/networkingandcontentdelivery",
           "name": "Networking & Content Delivery",
           "description": "VPC, CloudFront, Route 53, API Gateway, Direct Connect, Global Accelerator",
           "topics": [
-            "networking"
+            "networking",
+            "content delivery"
           ],
           "cssClass": "networking-content-delivery",
-          "markdown": "/static/markdown/networking.md"
+          "children": [
+            {
+              "route": "/vpc",
+              "name": "VPC",
+              "fullName": "Virtual Private Cloud",
+              "description": "Isolated Cloud Resources",
+              "cssClass": "vpc",
+              "topics": [
+                "networking",
+                "content delivery",
+                "VPC"
+              ],
+              "markdown": "/static/markdown/networkingandcontentdelivery/VPC.md"
+            },
+            {
+              "route": "/cloudfront",
+              "name": "CloudFront",
+              "description": "Global Content Delivery Network",
+              "cssClass": "cloudfront",
+              "topics": [
+                "networking",
+                "content delivery",
+                "CloudFront"
+              ],
+              "markdown": "/static/markdown/networkingandcontentdelivery/CloudFront.md"
+            },
+            {
+              "route": "/route53",
+              "name": "Route 53",
+              "description": "Scalable DNS and Domain Name Registration",
+              "cssClass": "route53",
+              "topics": [
+                "networking",
+                "content delivery",
+                "Route 53"
+              ],
+              "markdown": "/static/markdown/networkingandcontentdelivery/Route53.md"
+            },
+            {
+              "route": "/apigateway",
+              "name": "API Gateway",
+              "description": "Scalable DNS and Domain Name Registration",
+              "cssClass": "apigateway",
+              "topics": [
+                "networking",
+                "content delivery",
+                "API Gateway"
+              ],
+              "markdown": "/static/markdown/networkingandcontentdelivery/APIGateway.md"
+            },
+            {
+              "route": "/directconnect",
+              "name": "Direct Connect",
+              "description": "Dedicated Network Connection to AWS",
+              "cssClass": "directconnect",
+              "topics": [
+                "networking",
+                "content delivery",
+                "Direct Connect"
+              ],
+              "markdown": "/static/markdown/networkingandcontentdelivery/DirectConnect.md"
+            },
+            {
+              "route": "/globalaccelerator",
+              "name": "Global Accelerator",
+              "description": "Improve your application’s availability and performance using the AWS Global Network",
+              "cssClass": "globalaccelerator",
+              "topics": [
+                "networking",
+                "content delivery",
+                "Global Accelerator"
+              ],
+              "markdown": "/static/markdown/networkingandcontentdelivery/GlobalAccelerator.md"
+            }
+          ]
         },
         {
           "route": "/managementandgovernance",
           "name": "Management & Governance",
-          "description": "AWS Organizations, Cloud watch, Cloud trail, AWS Auto Scaling, Systems Manager, CloudFormation, AWS Well-Architected Tool, Personal Health Dashboard, AWS Compute Optimizer",
+          "description": "AWS Organizations, Cloud watch, Cloud trail, AWS Auto Scaling, Parameter Store, CloudFormation, AWS Well-Architected Tool",
           "topics": [
-            "networking"
+            "management",
+            "gouvernance"
           ],
           "icon": "none",
           "cssClass": "management-governance",
-          "markdown": "/static/markdown/management.md"
+          "children": [
+            {
+              "route": "/organizations",
+              "name": "AWS Organizations",
+              "description": "Central governance and management across AWS accounts.",
+              "cssClass": "organizations",
+              "topics": [
+                "management",
+                "gouvernance",
+                "AWS Organizations"
+              ],
+              "markdown": "/static/markdown/managementandgovernance/Organizations.md"
+            },
+            {
+              "route": "/cloudwatch",
+              "name": "CloudWatch",
+              "description": "Monitor Resources and Applications.",
+              "cssClass": "cloudwatch",
+              "topics": [
+                "management",
+                "gouvernance",
+                "CloudWatch"
+              ],
+              "markdown": "/static/markdown/managementandgovernance/CloudWatch.md"
+            },
+            {
+              "route": "/cloudtrail",
+              "name": "CloudTrail",
+              "description": "Track User Activity and API Usage.",
+              "cssClass": "cloudtrail",
+              "topics": [
+                "management",
+                "gouvernance",
+                "CloudTrail"
+              ],
+              "markdown": "/static/markdown/managementandgovernance/CloudTrail.md"
+            },
+            {
+              "route": "/autoscaling",
+              "name": "AWS Auto Scaling",
+              "description": "Quickly scale your entire application on AWS.",
+              "cssClass": "autoscaling",
+              "topics": [
+                "management",
+                "gouvernance",
+                "Auto Scaling"
+              ],
+              "markdown": "/static/markdown/managementandgovernance/AutoScaling.md"
+            },
+            {
+              "route": "/parameterstore",
+              "name": "Systems Manager - Parameter Store",
+              "description": "Secrets and configuration data management.",
+              "cssClass": "parameterstore",
+              "topics": [
+                "management",
+                "gouvernance",
+                "Parameter Store"
+              ],
+              "markdown": "/static/markdown/managementandgovernance/ParameterStore.md"
+            },
+            {
+              "route": "/cloudformation",
+              "name": "CloudFormation",
+              "description": "Infrastructure provisionning as Code.",
+              "cssClass": "cloudformation",
+              "topics": [
+                "management",
+                "gouvernance",
+                "CloudFormation"
+              ],
+              "markdown": "/static/markdown/managementandgovernance/CloudFormation.md"
+            },
+            {
+              "route": "/wellarchitectedtool",
+              "name": "AWS Well-Architected Tool",
+              "description": "Learn best practices, measure, and improve your workloads.",
+              "cssClass": "wellarchitectedtool",
+              "topics": [
+                "management",
+                "gouvernance",
+                "Well-Architected Tool"
+              ],
+              "markdown": "/static/markdown/managementandgovernance/WellArchitectedTool.md"
+            }
+          ]
         },
         {
           "route": "/developertools",
           "name": "Developer Tools",
-          "description": "CodeCommit, CodeDeploy, X-Ray",
+          "description": "X-Ray",
           "topics": [
-            "application"
+            "developertools"
           ],
           "cssClass": "developer-tools",
-          "markdown": "/static/markdown/management.md"
+          "children": [
+            {
+              "route": "/xray",
+              "name": "X-Ray",
+              "description": "Analyze and Debug Your Applications.",
+              "cssClass": "xray",
+              "topics": [
+                "developertools",
+                "X-Ray"
+              ],
+              "markdown": "/static/markdown/developertools/XRay.md"
+            }
+          ]
         },
         {
           "route": "/analytics",
           "name": "Analytics",
-          "description": "Athena, Amazon Redshift, EMR,, Kinesis, Data Pipeline, Elasticsearch Service",
+          "description": "Athena, Amazon Redshift, EMR, Kinesis, Data Pipeline",
           "topics": [
-            "application"
+            "analytics"
           ],
           "cssClass": "analytics",
-          "markdown": "/static/markdown/management.md"
+          "children": [
+            {
+              "route": "/athena",
+              "name": "Athena",
+              "description": "Query Data in S3 using SQL.",
+              "cssClass": "athena",
+              "topics": [
+                "analytics",
+                "Athena"
+              ],
+              "markdown": "/static/markdown/analytics/Athena.md"
+            },
+            {
+              "route": "/redshift",
+              "name": "Redshift",
+              "description": "Data Warehousing",
+              "cssClass": "redshift",
+              "topics": [
+                "analytics",
+                "Redshift"
+              ],
+              "markdown": "/static/markdown/analytics/Redshift.md"
+            },
+            {
+              "route": "/emr",
+              "name": "EMR",
+              "fullName": "Elastic MapReduce",
+              "description": "Managed Hadoop Framework",
+              "cssClass": "emr",
+              "topics": [
+                "analytics",
+                "EMR"
+              ],
+              "markdown": "/static/markdown/analytics/EMR.md"
+            },
+            {
+              "route": "/kinesis",
+              "name": "Kinesis",
+              "description": "Managed Hadoop Framework",
+              "cssClass": "kinesis",
+              "topics": [
+                "analytics",
+                "Kinesis"
+              ],
+              "markdown": "/static/markdown/analytics/Kinesis.md"
+            },
+            {
+              "route": "/datapipeline",
+              "name": "Data Pipeline",
+              "description": "Orchestration for Data-Driven Workflows",
+              "cssClass": "datapipeline",
+              "topics": [
+                "analytics",
+                "Data Pipeline"
+              ],
+              "markdown": "/static/markdown/analytics/DataPipeline.md"
+            }
+          ]
         },
         {
           "route": "/applicationintegration",
           "name": "Application Integration",
-          "description": "SNS, SQS, SWF, Step Functions..",
+          "description": "SNS, SQS, SWF, Step Functions",
           "topics": [
-            "application"
+            "application",
+            "integration"
           ],
           "cssClass": "application-integration",
-          "markdown": "/static/markdown/management.md"
-        },
-        {
-          "route": "/cost management",
-          "name": "AWS Cost Management",
-          "description": "AWS Cost Explorer, AWS Budgets",
-          "topics": [
-            "cost management"
-          ],
-          "cssClass": "cost-management",
-          "markdown": "/static/markdown/management.md"
+          "children": [
+            {
+              "route": "/sns",
+              "name": "SNS",
+              "fullName": "Simple Notification Service",
+              "description": "Managed message topics for Pub/Sub",
+              "cssClass": "sns",
+              "topics": [
+                "application",
+                "integration",
+                "SNS"
+              ],
+              "markdown": "/static/markdown/applicationintegration/SNS.md"
+            },
+            {
+              "route": "/sqs",
+              "name": "SQS",
+              "fullName": "Simple Queue Service",
+              "description": "Managed Message Queues",
+              "cssClass": "sqs",
+              "topics": [
+                "application",
+                "integration",
+                "SQS"
+              ],
+              "markdown": "/static/markdown/applicationintegration/SQS.md"
+            },
+            {
+              "route": "/swf",
+              "name": "SWF",
+              "fullName": "Simple Workflow",
+              "description": "Workflow Service for Coordinating Application Components",
+              "cssClass": "swf",
+              "topics": [
+                "application",
+                "integration",
+                "SWF"
+              ],
+              "markdown": "/static/markdown/applicationintegration/SWF.md"
+            },
+            {
+              "route": "/stepfunctions",
+              "name": "Step Functions",
+              "description": "Coordinate Distributed Applications",
+              "cssClass": "step-functions",
+              "topics": [
+                "application",
+                "integration",
+                "Step Functions"
+              ],
+              "markdown": "/static/markdown/applicationintegration/StepFunctions.md"
+            }
+          ]
         },
         {
           "route": "/endusercomputing",
           "name": "End User Computing",
           "description": "Desktop Workspaces",
           "topics": [
-            "application"
+            "End User Computing"
           ],
           "cssClass": "end-user-computing",
-          "markdown": "/static/markdown/management.md"
+          "children": [
+            {
+              "route": "/desktopworkspaces",
+              "name": "Desktop Workspaces",
+              "description": "Coordinate Distributed Applications",
+              "cssClass": "desktop-workspaces",
+              "topics": [
+                "End User Computing",
+                "Desktop Workspaces"
+              ],
+              "markdown": "/static/markdown/applicationintegration/DesktopWorkspaces.md"
+            }
+          ]
         }
       ]
     }
