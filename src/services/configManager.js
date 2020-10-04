@@ -123,8 +123,9 @@ export default {
    */
   getStatus: () => {
     return new Promise((resolve, reject) => {
-      const pathName = window.location.pathname
-      const path = `${pathName.substring(0, pathName.length - 1)}/static/content.json`
+      // const pathName = window.location.pathname
+      // const path = `${pathName.substring(0, pathName.length - 1)}/static/content.json`
+      const path = 'https://hazem-ben-khalfallah.github.io/aws-solutions-architect-associate-notes/static/content.json'
 
       axios.get(path)
         .then(response => {

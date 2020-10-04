@@ -55,7 +55,6 @@
           "topics": [
             "security"
           ],
-          "icon": "none",
           "cssClass": "security-identity-compliance",
           "children": [
             {
@@ -490,7 +489,6 @@
             "management",
             "gouvernance"
           ],
-          "icon": "none",
           "cssClass": "management-governance",
           "children": [
             {

@@ -26,6 +26,7 @@ const getContent = (page, parent) => {
     let content = {
       name: page.name,
       description: page.description,
+      topics: page.topics,
       owner: page.owner,
       path: (parent) ? `${parent}${page.route}` : page.route,
       text: '',
