@@ -222,6 +222,33 @@
   background-size: 64px 64px;
 }
 
+.efs {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/Amazon-Simple-Storage-Service-S3.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+.fsx {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/Amazon-FSx.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+.storage-gateway {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/AWS-Storage-Gateway.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
 /* database */
 
 .rds {
@@ -237,6 +264,24 @@
   padding: 50px 50px;
   margin-left: 30px;
   background-image: url($icons-path + "/icons/aws/Amazon-DynamoDB.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+.redshift {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/Amazon-Redshift.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+.elasticache {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/Amazon-ElastiCache.svg");
   background-repeat: no-repeat;
   background-position: 5px 50%;
   background-size: 64px 64px;

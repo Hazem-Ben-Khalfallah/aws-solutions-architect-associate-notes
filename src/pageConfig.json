@@ -19,28 +19,28 @@
       "icon": "address-book",
       "children": [
         {
-          "route": "/general",
-          "name": "General",
-          "description": "Exam presentation and general info",
+          "route": "/exampreparation",
+          "name": "Exam preparation path",
+          "description": "Exam preparation",
           "topics": [],
-          "icon": "info-circle",
-          "markdown": "/static/markdown/General.md"
+          "icon": "graduation-cap",
+          "markdown": "/static/markdown/ExamPreparation.md"
         },
         {
-          "route": "/wellArchitectedframework",
+          "route": "/wellarchitectedframework",
           "name": "Well-Architected Framework",
           "description": "Well-Architected Framework",
           "topics": [],
           "icon": "ruler-combined",
-          "markdown": "/static/markdown/ExamPresentation.md"
+          "markdown": "/static/markdown/WellArchitectedFramework.md"
         },
         {
           "route": "/whitepapers",
-          "name": "White Papers Review",
-          "description": "?",
+          "name": "White Papers & FAQs",
+          "description": "Read White Papers & FAQs",
           "topics": [],
           "icon": "file-pdf",
-          "markdown": "/static/markdown/ExamPresentation.md"
+          "markdown": "/static/markdown/WhitePapersAndFAQs.md"
         },
         {
           "route": "/securityandidentity",
@@ -186,12 +186,59 @@
         {
           "route": "/storage",
           "name": "Storage",
-          "description": "S3, EFS, FSX, Storage Gateway, AWS Backup",
+          "description": "S3, EFS, FSX, Storage Gateway",
           "topics": [
             "storage"
           ],
           "cssClass": "storage",
-          "markdown": "/static/markdown/storage.md"
+          "children": [
+            {
+              "route": "/s3",
+              "name": "S3",
+              "fullName": "Simple Storage Service",
+              "description": "Store objects in cloud",
+              "cssClass": "s3",
+              "topics": [
+                "storage",
+                "S3"
+              ],
+              "markdown": "/static/markdown/storage/S3.md"
+            },
+            {
+              "route": "/efs",
+              "name": "EFS",
+              "fullName": "Elastic File System",
+              "description": "Managed file storage for EC2",
+              "cssClass": "efs",
+              "topics": [
+                "storage",
+                "EFS"
+              ],
+              "markdown": "/static/markdown/storage/EFS.md"
+            },
+            {
+              "route": "/fsx",
+              "name": "FSx",
+              "description": "Fully managed third-party file systems optimized for a variety of workloads",
+              "cssClass": "fsx",
+              "topics": [
+                "storage",
+                "FSx"
+              ],
+              "markdown": "/static/markdown/storage/FSx.md"
+            },
+            {
+              "route": "/storagegateway",
+              "name": "Storage Gateway",
+              "description": "Hybrid storage integration",
+              "cssClass": "storage-gateway",
+              "topics": [
+                "storage",
+                "Storage Gateway"
+              ],
+              "markdown": "/static/markdown/storage/StorageGateway.md"
+            }
+          ]
         },
         {
           "route": "/database",
@@ -205,7 +252,8 @@
             {
               "route": "/rds",
               "name": "RDS",
-              "description": "Relational Database Service",
+              "fullName": "Relational Database Service",
+              "description": "Managed Relational Database Service",
               "cssClass": "rds",
               "topics": [
                 "databases",
@@ -214,16 +262,37 @@
               "markdown": "/static/markdown/database/RDS.md"
             },
             {
-              "route": "/DynamoDB",
+              "route": "/dynamodb",
               "name": "DynamoDB",
-              "description": "DynamoDB - NoSQL",
+              "description": "Managed NoSQL database",
               "cssClass": "dynamoDB",
               "topics": [
                 "databases",
-                "NoSQL",
                 "DynamoDB"
               ],
               "markdown": "/static/markdown/database/DynamoDB.md"
+            },
+            {
+              "route": "/redshift",
+              "name": "Redshift",
+              "description": "Data Warehousing",
+              "cssClass": "redshift",
+              "topics": [
+                "databases",
+                "Redshift"
+              ],
+              "markdown": "/static/markdown/database/Redshift.md"
+            },
+            {
+              "route": "elasticache",
+              "name": "ElastiCache",
+              "description": "In-Memory Cache",
+              "cssClass": "elasticache",
+              "topics": [
+                "databases",
+                "ElastiCache"
+              ],
+              "markdown": "/static/markdown/database/ElastiCache.md"
             }
           ]
         },

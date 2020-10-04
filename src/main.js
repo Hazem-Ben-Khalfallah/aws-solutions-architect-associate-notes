@@ -9,7 +9,8 @@ import {
   faInfoCircle,
   faProjectDiagram,
   faFilePdf,
-  faRulerCombined
+  faRulerCombined,
+  faGraduationCap
 } from '@fortawesome/free-solid-svg-icons'
 
 Vue.use(VueTreeNavigation)
@@ -17,7 +18,8 @@ library.add(
   faInfoCircle,
   faProjectDiagram,
   faFilePdf,
-  faRulerCombined
+  faRulerCombined,
+  faGraduationCap
 )
 
 const filter = (text, length, clamp) => {
