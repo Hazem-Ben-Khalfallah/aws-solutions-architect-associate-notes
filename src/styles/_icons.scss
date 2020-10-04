@@ -269,15 +269,6 @@
   background-size: 64px 64px;
 }
 
-.redshift {
-  padding: 50px 50px;
-  margin-left: 30px;
-  background-image: url($icons-path + "/icons/aws/Amazon-Redshift.svg");
-  background-repeat: no-repeat;
-  background-position: 5px 50%;
-  background-size: 64px 64px;
-}
-
 .elasticache {
   padding: 50px 50px;
   margin-left: 30px;
@@ -293,6 +284,290 @@
   padding: 50px 50px;
   margin-left: 30px;
   background-image: url($icons-path + "/icons/aws/Amazon-EC2.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+.lambda {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/AWS-Lambda.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+.elastic-beanstalk {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/AWS-Elastic-Beanstalk.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+.ecs {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/Amazon-Elastic-Container-Service.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+/* Migration & Transfer */
+
+.dms {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/AWS-Database-Migration-Service.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+.datasync {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/AWS-DataSync.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+.snow {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/AWS-Snowball.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+/* Networking & Content Delivery */
+
+.vpc {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/Amazon-VPC.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+.cloudfront {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/Amazon-CloudFront.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+.route53 {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/Amazon-Route-53.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+.api-gateway {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/Amazon-API-Gateway.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+.direct-connect {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/AWS-Direct-Connect.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+.global-accelerator {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/AWS-Global-Accelerator.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+/* Management & Governance */
+
+.organizations {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/AWS-Organizations.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+.cloudwatch {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/Amazon-CloudWatch.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+.cloudtrail {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/AWS-CloudTrail.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+.autoscaling {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/AWS-Auto-Scaling.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+.parameterstore {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/AWS-Systems-Manager_Parameter-Store.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+.cloudformation {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/AWS-CloudFormation.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+.well-architected-tool {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/AWS-Well-Architected-Tool.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+/* Developer Tools */
+
+.x-ray {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/AWS-X-Ray.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+/* Analytics */
+
+.athena {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/Amazon-Athena.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+.redshift {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/Amazon-Redshift.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+.emr {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/Amazon-EMR.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+.kinesis {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/Amazon-Kinesis.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+.data-pipeline {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/AWS-Data-Pipeline.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+/* Application Integration */
+
+.sns {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/Amazon-Simple-Notification-Service-SNS.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+.sqs {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/Amazon-Simple-Queue-Service-SQS.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+.swf {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/AWS-Express-Workflows.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+.step-functions {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/AWS-Step-Functions.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+/* End User Computing */
+
+.desktop-workspaces {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/Amazon-Workspaces.svg");
   background-repeat: no-repeat;
   background-position: 5px 50%;
   background-size: 64px 64px;

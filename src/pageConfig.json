@@ -442,7 +442,7 @@
               "route": "/apigateway",
               "name": "API Gateway",
               "description": "Scalable DNS and Domain Name Registration",
-              "cssClass": "apigateway",
+              "cssClass": "api-gateway",
               "topics": [
                 "networking",
                 "content delivery",
@@ -454,7 +454,7 @@
               "route": "/directconnect",
               "name": "Direct Connect",
               "description": "Dedicated Network Connection to AWS",
-              "cssClass": "directconnect",
+              "cssClass": "direct-connect",
               "topics": [
                 "networking",
                 "content delivery",
@@ -466,7 +466,7 @@
               "route": "/globalaccelerator",
               "name": "Global Accelerator",
               "description": "Improve your application’s availability and performance using the AWS Global Network",
-              "cssClass": "globalaccelerator",
+              "cssClass": "global-accelerator",
               "topics": [
                 "networking",
                 "content delivery",
@@ -563,7 +563,7 @@
               "route": "/wellarchitectedtool",
               "name": "AWS Well-Architected Tool",
               "description": "Learn best practices, measure, and improve your workloads.",
-              "cssClass": "wellarchitectedtool",
+              "cssClass": "well-architected-tool",
               "topics": [
                 "management",
                 "gouvernance",
@@ -586,7 +586,7 @@
               "route": "/xray",
               "name": "X-Ray",
               "description": "Analyze and Debug Your Applications.",
-              "cssClass": "xray",
+              "cssClass": "x-ray",
               "topics": [
                 "developertools",
                 "X-Ray"
@@ -653,7 +653,7 @@
               "route": "/datapipeline",
               "name": "Data Pipeline",
               "description": "Orchestration for Data-Driven Workflows",
-              "cssClass": "datapipeline",
+              "cssClass": "data-pipeline",
               "topics": [
                 "analytics",
                 "Data Pipeline"
