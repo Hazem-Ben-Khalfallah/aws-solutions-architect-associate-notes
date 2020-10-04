@@ -43,7 +43,7 @@ export default {
   name: 'app',
   data () {
     return {
-      baseUrl: 'https://pages.github.ibm.com/merlin/playbook/#',
+      baseUrl: 'https://hazem-ben-khalfallah.github.io/aws-solutions-architect-associate-notes/#',
       isNavOpen: false,
       tocItems: ConfigManager.getPages(),
       content: [],

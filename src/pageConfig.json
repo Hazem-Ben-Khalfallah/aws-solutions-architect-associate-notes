@@ -8,21 +8,22 @@
   ],
   "landingPage": "/aws-solutions-architect-associate-notes",
   "topics": [
-    "databases",
+    "database",
     "security"
   ],
   "pages": [
     {
       "route": "/aws-solutions-architect-associate-notes",
-      "name": "Home",
-      "description": "This is the Home page",
+      "name": "Dashboard",
       "icon": "address-book",
       "children": [
         {
           "route": "/exampreparation",
           "name": "Exam preparation path",
           "description": "Exam preparation",
-          "topics": [],
+          "topics": [
+            "preparation"
+          ],
           "icon": "graduation-cap",
           "markdown": "/static/markdown/ExamPreparation.md"
         },
@@ -30,7 +31,9 @@
           "route": "/wellarchitectedframework",
           "name": "Well-Architected Framework",
           "description": "Well-Architected Framework",
-          "topics": [],
+          "topics": [
+            "Well-Architected Framework"
+          ],
           "icon": "ruler-combined",
           "markdown": "/static/markdown/WellArchitectedFramework.md"
         },
@@ -38,7 +41,10 @@
           "route": "/whitepapers",
           "name": "White Papers & FAQs",
           "description": "Read White Papers & FAQs",
-          "topics": [],
+          "topics": [
+            "white papers",
+            "FAQs"
+          ],
           "icon": "file-pdf",
           "markdown": "/static/markdown/WhitePapersAndFAQs.md"
         },
