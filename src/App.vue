@@ -76,7 +76,6 @@ export default {
         this.searchResultsVisible = true
         let filter = 'topic:'
         if (this.searchKeywords.indexOf('topic:') > -1) {
-          console.log('## 1', this.searchResults)
           console.log('## 2', this.content)
           this.searchResults = this.content.filter(result => {
             let topics = (result.topics || []).map((topic) => {
