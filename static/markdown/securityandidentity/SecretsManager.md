@@ -10,3 +10,6 @@
   * and Amazon DocumentDB.
 * the service is extensible to other types of secrets, including API keys and OAuth tokens. 
 * Enables you to control access to secrets using **fine-grained permissions** and **audit secret rotation centrally** for resources in the AWS Cloud, third-party services, and on-premises.
+
+## How it works?
+![images/secretsmanager/secretsmanager1.png](static/images/secretsmanager/secretsmanager1.png)
