@@ -3,22 +3,22 @@
   "headerNavigation": [
     {
       "name": "AWS Solutions Architect Associate Note",
-      "path": "/aws-solutions-architect-associate-notes"
+      "path": "/"
     }
   ],
-  "landingPage": "/aws-solutions-architect-associate-notes",
+  "landingPage": "/",
   "topics": [
     "database",
     "security"
   ],
   "pages": [
     {
-      "route": "/aws-solutions-architect-associate-notes",
+      "route": "/",
       "name": "Dashboard",
       "icon": "address-book",
       "children": [
         {
-          "route": "/exampreparation",
+          "route": "exampreparation",
           "name": "Exam preparation path",
           "description": "Exam preparation",
           "topics": [
@@ -28,7 +28,7 @@
           "markdown": "/static/markdown/ExamPreparation.md"
         },
         {
-          "route": "/wellarchitectedframework",
+          "route": "wellarchitectedframework",
           "name": "Well-Architected Framework",
           "description": "Well-Architected Framework",
           "topics": [
@@ -38,7 +38,7 @@
           "markdown": "/static/markdown/WellArchitectedFramework.md"
         },
         {
-          "route": "/whitepapers",
+          "route": "whitepapers",
           "name": "White Papers & FAQs",
           "description": "Read White Papers & FAQs",
           "topics": [
@@ -49,7 +49,7 @@
           "markdown": "/static/markdown/WhitePapersAndFAQs.md"
         },
         {
-          "route": "/securityandidentity",
+          "route": "securityandidentity",
           "name": "Security and Identity",
           "description": "IAM, Resource Access Manager, Cognito, Secrets Manager, GuardDuty, Macie, KMS, Cloud HSM, Directory Service, WAF, Shield",
           "topics": [
@@ -189,7 +189,7 @@
           ]
         },
         {
-          "route": "/storage",
+          "route": "storage",
           "name": "Storage",
           "description": "S3, EFS, FSX, Storage Gateway",
           "topics": [
@@ -246,7 +246,7 @@
           ]
         },
         {
-          "route": "/database",
+          "route": "database",
           "name": "Database",
           "description": "RDS, DynamoDB, Redshift, Elasticache",
           "cssClass": "database",
@@ -278,7 +278,7 @@
               "markdown": "/static/markdown/database/DynamoDB.md"
             },
             {
-              "route": "elasticache",
+              "route": "/elasticache",
               "name": "ElastiCache",
               "description": "In-Memory Cache",
               "cssClass": "elasticache",
@@ -291,7 +291,7 @@
           ]
         },
         {
-          "route": "/compute",
+          "route": "compute",
           "name": "Compute",
           "description": "EC2, Lambda, Elastic Beanstalk, ECS",
           "topics": [
@@ -348,7 +348,7 @@
           ]
         },
         {
-          "route": "/migrationandtransfer",
+          "route": "migrationandtransfer",
           "name": "Migration & Transfer",
           "description": "DMS, DataSync, Snow",
           "topics": [
@@ -397,7 +397,7 @@
           ]
         },
         {
-          "route": "/networkingandcontentdelivery",
+          "route": "networkingandcontentdelivery",
           "name": "Networking & Content Delivery",
           "description": "VPC, CloudFront, Route 53, API Gateway, Direct Connect, Global Accelerator",
           "topics": [
@@ -482,7 +482,7 @@
           ]
         },
         {
-          "route": "/managementandgovernance",
+          "route": "managementandgovernance",
           "name": "Management & Governance",
           "description": "AWS Organizations, Cloud watch, Cloud trail, AWS Auto Scaling, Parameter Store, CloudFormation, AWS Well-Architected Tool",
           "topics": [
@@ -526,6 +526,18 @@
                 "CloudTrail"
               ],
               "markdown": "/static/markdown/managementandgovernance/CloudTrail.md"
+            },
+            {
+              "route": "/opsworks",
+              "name": "OpsWorks",
+              "description": "Configuration Management with Chef and Puppet.",
+              "cssClass": "opsworks",
+              "topics": [
+                "management",
+                "gouvernance",
+                "OpsWorks"
+              ],
+              "markdown": "/static/markdown/managementandgovernance/OpsWorks.md"
             },
             {
               "route": "/autoscaling",
@@ -578,7 +590,7 @@
           ]
         },
         {
-          "route": "/developertools",
+          "route": "developertools",
           "name": "Developer Tools",
           "description": "X-Ray",
           "topics": [
@@ -600,7 +612,7 @@
           ]
         },
         {
-          "route": "/analytics",
+          "route": "analytics",
           "name": "Analytics",
           "description": "Athena, Amazon Redshift, EMR, Kinesis, Data Pipeline",
           "topics": [
@@ -667,7 +679,7 @@
           ]
         },
         {
-          "route": "/applicationintegration",
+          "route": "applicationintegration",
           "name": "Application Integration",
           "description": "SNS, SQS, SWF, Step Functions",
           "topics": [
@@ -730,7 +742,7 @@
           ]
         },
         {
-          "route": "/endusercomputing",
+          "route": "endusercomputing",
           "name": "End User Computing",
           "description": "Desktop Workspaces",
           "topics": [

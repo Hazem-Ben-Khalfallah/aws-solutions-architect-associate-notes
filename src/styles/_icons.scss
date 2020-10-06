@@ -430,6 +430,15 @@
   background-size: 64px 64px;
 }
 
+.opsworks {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/AWS-OpsWorks.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
 .autoscaling {
   padding: 50px 50px;
   margin-left: 30px;

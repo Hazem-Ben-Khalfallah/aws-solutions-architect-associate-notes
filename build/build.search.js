@@ -34,6 +34,7 @@ const getContent = (page, parent) => {
     }
     if (page.markdown) {
       let mdPath = path.join(__dirname, '..', page.markdown);
+      console.log('mdPath ', mdPath)
       fs.readFile(mdPath, 'utf8', (err, data) => {
         let text = removeMd(data);
         content.text = text;
@@ -69,9 +70,10 @@ const traversTree = (pages, parent) => {
     return resolve(PAGES);
   })
 }
-
+console.log('build for search ', pages)
 traversTree(pages)
   .then((PAGE_CONTENTS) => {
+    console.log('PAGE_CONTENTS ', PAGE_CONTENTS)
     fs.writeFile (
       path.join(config.build.assetsRoot, '/static/content.json'), 
       JSON.stringify(PAGE_CONTENTS),

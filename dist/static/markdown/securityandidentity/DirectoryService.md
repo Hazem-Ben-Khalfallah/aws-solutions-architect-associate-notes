@@ -37,7 +37,7 @@ You can choose from **4 directory types**:
 * With AD Connector, you continue to manage your Active Directory as usual. For example, adding new users, adding new groups, or updating passwords are all accomplished using standard directory administration tools with your on-premises directory.
 
 ### Amazon Cognito User Pools
-This directory type will simply redirect you to [Cognito](#/aws-solutions-architect-associate-notes/securityandidentity/cognito).
+This directory type will simply redirect you to [Cognito](#/securityandidentity/cognito).
 
 ## When to use each type?
 ### AWS Managed Microsoft AD

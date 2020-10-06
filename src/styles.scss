@@ -6,11 +6,8 @@
     Email: kai.wedekind@de.ibm.com
     Tags: Best Practices, Website
 */
-//  prod config
-$base-path: "\/aws-solutions-architect-associate-notes";
-$icons-path: $base-path + "\/static";
-//  dev config
-//$icons-path:  "\/static";
+
+@import './styles/variables.scss';
 
 @import './styles/reset.scss';
 
