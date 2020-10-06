@@ -22,8 +22,6 @@ npm run gh-pages
 ```
 
 ## Credits
-These notes is based on many external resources. Special thanks goes to:
+These notes are based on many external resources. Special thanks goes to:
 * Yassine Bouzid
-* [minhntm](https://github.com/minhntm/aws-solutions-architect-associate-certificate)
-* [truongnmt](https://github.com/truongnmt/aws-solution-architect-associate-note)
 * [SkullTech](https://github.com/SkullTech/aws-solutions-architect-associate-notes)
