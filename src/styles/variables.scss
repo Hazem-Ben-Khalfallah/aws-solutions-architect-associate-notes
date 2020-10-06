@@ -1,2 +1,3 @@
-//  dev config
-$icons-path:  "\/static";
+//  prod config
+$base-path: "\/aws-solutions-architect-associate-notes";
+$icons-path: $base-path + "\/static";
