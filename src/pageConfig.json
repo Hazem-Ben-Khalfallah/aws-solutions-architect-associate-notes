@@ -191,7 +191,7 @@
         {
           "route": "storage",
           "name": "Storage",
-          "description": "S3, EFS, FSX, Storage Gateway",
+          "description": "S3, EFS, EBS, FSX, Storage Gateway",
           "topics": [
             "storage"
           ],
@@ -220,6 +220,18 @@
                 "EFS"
               ],
               "markdown": "/static/markdown/storage/EFS.md"
+            },
+            {
+              "route": "/ebs",
+              "name": "EBS",
+              "fullName": "Elastic Bloc Storage",
+              "description": "Block storage device for EC2",
+              "cssClass": "ebs",
+              "topics": [
+                "storage",
+                "EBS"
+              ],
+              "markdown": "/static/markdown/storage/EBS.md"
             },
             {
               "route": "/fsx",

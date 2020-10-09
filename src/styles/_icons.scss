@@ -225,7 +225,16 @@
 .efs {
   padding: 50px 50px;
   margin-left: 30px;
-  background-image: url($icons-path + "/icons/aws/Amazon-Simple-Storage-Service-S3.svg");
+  background-image: url($icons-path + "/icons/aws/Amazon-Elastic-File-System_EFS.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 64px 64px;
+}
+
+.ebs {
+  padding: 50px 50px;
+  margin-left: 30px;
+  background-image: url($icons-path + "/icons/aws/Amazon-Elastic-Block-Store-EBS.svg");
   background-repeat: no-repeat;
   background-position: 5px 50%;
   background-size: 64px 64px;
