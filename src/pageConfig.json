@@ -154,7 +154,7 @@
               "route": "/directoryservice",
               "name": "Directory Service",
               "description": "Host and Manage Active Directory.",
-              "cssClass": "cloudHSM",
+              "cssClass": "directory-service",
               "topics": [
                 "security",
                 "Directory Service"

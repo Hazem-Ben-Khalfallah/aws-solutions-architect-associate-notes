@@ -23,5 +23,6 @@ npm run gh-pages
 
 ## Credits
 These notes are based on many external resources. Special thanks goes to:
-* Yassine Bouzid
+* [tutorialsdojo](https://tutorialsdojo.com)
 * [SkullTech](https://github.com/SkullTech/aws-solutions-architect-associate-notes)
+* Yassine Bouzid
